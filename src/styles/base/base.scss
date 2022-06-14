@@ -1,0 +1,30 @@
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  user-select: none;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  @extend %cover;
+  // background: $color-cadet-blue;
+  color: $color-white;
+  font-size: calc(100vw / 1920 * 10);
+  line-height: 1;
+  @include media("<=tablet") {
+    font-size: 0.45rem !important;
+  }
+}
+
+body {
+  font-family: $font-suisse-bp;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(166, 223, 235, 0.5) 100%
+  );
+}

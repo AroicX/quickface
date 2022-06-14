@@ -1,0 +1,33 @@
+{
+  "name": "konbata",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "node-sass": "^7.0.1",
+    "postcss-rtl": "^1.7.3",
+    "renderjson": "^1.4.0",
+    "sass": "^1.49.7",
+    "sass-loader": "^12.5.0",
+    "scss": "^0.2.4",
+    "vue": "^3.2.30",
+    "vue-router": "^4.0.12"
+  },
+  "devDependencies": {
+    "@headlessui/vue": "^1.4.3",
+    "@heroicons/vue": "^1.0.5",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.4.0",
+    "@tailwindcss/line-clamp": "^0.3.1",
+    "@tailwindcss/typography": "^0.5.1",
+    "@types/tailwindcss": "^3.0.7",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "autoprefixer": "10.4.5",
+    "prettier-plugin-tailwindcss": "^0.1.6",
+    "tailwindcss": "^3.0.19",
+    "vite": "^2.8.0"
+  }
+}
